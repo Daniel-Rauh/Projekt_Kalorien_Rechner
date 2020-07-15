@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, #3b3b3b 0%, #c0c0c0 50%)
+}
+article{
+    width: 370px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: rgb(247, 240, 234);
+}
+select{
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+label:nth-of-type(5){
+    display: inline;
+}
+label:nth-of-type(6){
+    display: inline;
+}
+label:last-of-type{
+    margin-top: 7px;
+}
+input{
+    margin-bottom: 5px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #333333;
+    padding: 3px;
+}
+td{
+    width: 33%;
+}
