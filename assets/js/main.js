@@ -16,17 +16,17 @@ function calculate() {
         grund = (664.7 + (13.7 * weight.value) + (5 * height.value) - (6.8 * age.value)).toFixed(0)
     }
     if (activity.value == 1) {
-        gesamt = grund * 0.95
+        gesamt = (grund * 0.95).toFixed(0)
     } else if (activity.value == 2) {
-        gesamt = grund * 1.2
+        gesamt = (grund * 1.2).toFixed(0)
     } else if (activity.value == 3) {
-        gesamt = grund * 1.5
+        gesamt = (grund * 1.5).toFixed(0)
     } else if (activity.value == 4) {
-        gesamt = grund * 1.7
+        gesamt = (grund * 1.7).toFixed(0)
     } else if (activity.value == 5) {
-        gesamt = grund * 1.9
+        gesamt = (grund * 1.9).toFixed(0)
     } else if (activity.value == 6) {
-        gesamt = grund * 2.2
+        gesamt = (grund * 2.2).toFixed(0)
     }
     grundCal.innerHTML = grund
     grundJ.innerHTML = (grund * 4.1868).toFixed(0)
